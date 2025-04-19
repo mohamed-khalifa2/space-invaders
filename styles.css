@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    height: 100vh;
+    color: aliceblue;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://images.alphacoders.com/102/thumb-1920-1029684.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    z-index: -1; 
+}
+
+
+
+.buttons {
+    position: relative;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 10;
+    color: white;
+}
+
+.little-button{
+    display: none;
+    position: relative;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: white;
+    
+}
+.buttons:hover {
+    border: 1px solid rgb(191, 157, 255);
+}
+
+
+.buttons::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top:0;
+    background-color: rgb(191, 157, 255);
+    opacity: 0;
+    transition:0.3s ease-in-out;
+    z-index: -1;
+}
+.buttons:hover::after{
+    opacity: 1;
+}
+
+.astro-container {
+    position: relative; 
+    display: inline-block;
+}
+.astro {
+    max-width: 70px;
+}
+
+  
+
+
+
+
+
+  
+
