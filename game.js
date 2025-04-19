@@ -22,7 +22,7 @@ right.addEventListener('click', () => {
             bubbles: true
         });
         document.dispatchEvent(keyUpEvent);
-    }, 100); // 100ms delay (adjust as needed)
+    }, 200);
 });
 left.addEventListener('click', () => {
     const event = new KeyboardEvent('keydown', {
@@ -42,7 +42,7 @@ left.addEventListener('click', () => {
             bubbles: true
         });
         document.dispatchEvent(keyUpEvent);
-    }, 100); // 100ms delay (adjust as needed)
+    }, 200);
 });
 fire.addEventListener('click', () => {
     const event = new KeyboardEvent('keydown', {
@@ -62,5 +62,5 @@ fire.addEventListener('click', () => {
             bubbles: true
         });
         document.dispatchEvent(keyUpEvent);
-    }, 100); // 100ms delay (adjust as needed)
+    }, 200);
 });

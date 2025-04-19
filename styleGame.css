@@ -48,11 +48,13 @@ button {
     border-radius: 30px;
     padding: 10px 30px;
     margin: 10px;
-    cursor: pointer;
     overflow: hidden;
     z-index: 10;
     color: white;
+    outline: none;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     #canvas {
