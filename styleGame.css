@@ -37,8 +37,8 @@ body::before {
 }
 
 button {
-    padding: 17px;
-    margin: 6px;
+    padding: 10px;
+    margin: 0px;
 }
 
 .buttons {
@@ -46,7 +46,7 @@ button {
     background: none;
     border: 1px solid white;
     border-radius: 30px;
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin: 10px;
     cursor: pointer;
     overflow: hidden;
