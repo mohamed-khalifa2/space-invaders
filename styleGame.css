@@ -36,10 +36,6 @@ body::before {
     
 }
 
-button {
-    padding: 10px;
-    margin: 0px;
-}
 
 .buttons {
     position: relative;
