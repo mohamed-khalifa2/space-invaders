@@ -31,7 +31,7 @@ body::before {
 
 
 
-.buttons {
+.buttons{
     position: relative;
     background: none;
     border: 1px solid white;
@@ -44,17 +44,7 @@ body::before {
     color: white;
 }
 
-.little-button{
-    display: none;
-    position: relative;
-    background: none;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 5px 30px;
-    cursor: pointer;
-    color: white;
-    
-}
+
 .buttons:hover {
     border: 1px solid rgb(191, 157, 255);
 }
@@ -76,6 +66,42 @@ body::before {
     opacity: 1;
 }
 
+
+.buttons-team {
+    position: relative;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 10;
+    color: white;
+}
+
+
+.buttons-team:hover {
+    border: 1px solid rgb(191, 157, 255);
+}
+
+
+.buttons-team::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top:0;
+    background-color: rgb(191, 157, 255);
+    opacity: 0;
+    transition:0.3s ease-in-out;
+    z-index: -1;
+}
+.buttons-team:hover::after{
+    opacity: 1;
+}
+
 .astro-container {
     position: relative; 
     display: inline-block;
@@ -83,6 +109,33 @@ body::before {
 .astro {
     max-width: 70px;
 }
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center; 
+  }
+
+  .floating-btn {
+    position: fixed;     /* stays in place even on scroll */
+    top: 20px;           /* distance from top */
+    left: 20px;          /* distance from left */
+    z-index: 1000;       /* stays above other elements */
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-btn:hover {
+    background-color: #0056b3;
+  }
 
   
 
