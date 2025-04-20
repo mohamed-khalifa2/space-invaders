@@ -25,7 +25,7 @@ body::before {
 #canvas {
     max-width: 800px !important;
     max-width: 800px !important;
-    border-radius: 60px !important;
+    border-radius: 70px !important;
     display: block;
 }
 
