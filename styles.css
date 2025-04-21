@@ -38,7 +38,6 @@ body::before {
     border-radius: 30px;
     padding: 10px 50px;
     margin: 10px;
-    cursor: pointer;
     overflow: hidden;
     z-index: 10;
     color: white;
@@ -74,7 +73,6 @@ body::before {
     border-radius: 30px;
     padding: 10px 40px;
     margin: 10px;
-    cursor: pointer;
     overflow: hidden;
     z-index: 10;
     color: white;
@@ -117,25 +115,7 @@ body::before {
     align-items: center; 
   }
 
-  .floating-btn {
-    position: fixed;     /* stays in place even on scroll */
-    top: 20px;           /* distance from top */
-    left: 20px;          /* distance from left */
-    z-index: 1000;       /* stays above other elements */
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: background-color 0.3s ease;
-  }
   
-  .floating-btn:hover {
-    background-color: #0056b3;
-  }
 
   
 

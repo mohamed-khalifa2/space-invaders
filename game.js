@@ -71,3 +71,10 @@ fire.addEventListener('touchend', () => {
     });
     document.dispatchEvent(event);
 });
+
+window.addEventListener("apk-ready", () => {
+    console.log("APK is fully loaded and mounted!");
+    // You can do anything here – update UI, show message, etc.
+
+});
+
